@@ -1,4 +1,11 @@
+
 h1 {
-    color: #328c2b;
-    text-align: center;
+  color: #09121b;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #c733b3;
 }
