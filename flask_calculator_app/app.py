@@ -1,8 +1,7 @@
-
 from flask import Flask
-from flask_calculator_app.home import home_bp
-from flask_calculator_app.calculator import calculator_bp
-from flask_calculator_app.about import about_bp
+from home import home_bp
+from calculator import calculator_bp
+from about import about_bp
 
 app = Flask(__name__)
 
