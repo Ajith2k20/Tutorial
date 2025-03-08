@@ -6,3 +6,7 @@ input, select, button {
   margin: 5px;
   padding: 10px;
 }
+h1 {
+    color: #1b8330;
+    text-align: center;
+}

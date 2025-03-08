@@ -1,5 +1,6 @@
 { pkgs }: {
   deps = [
+    pkgs.tree
     pkgs.libGLU
     pkgs.libGL
     pkgs.python3
