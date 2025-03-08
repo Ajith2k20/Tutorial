@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flask Calculator App</title>
+    <link rel="stylesheet" href="{{ url_for('shared.static', filename='shared/styles.css') }}">
+    {% block styles %}{% endblock %}  <!-- For Blueprint-specific CSS -->
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="{{ url_for('home.home') }}">Home</a></li>
+            <li><a href="{{ url_for('calculator.calculator') }}">Calculator</a></li>
+            <li><a href="{{ url_for('about.about') }}">About</a></li>
+        </ul>
+    </nav>
+    <div class="content">
+        {% block content %}{% endblock %}
+    </div>
+    {% block scripts %}{% endblock %}  <!-- For Blueprint-specific JS -->
+</body>
+</html>

@@ -1,0 +1,10 @@
+{% extends "shared/base.html" %}
+
+{% block styles %}
+    <link rel="stylesheet" href="{{ url_for('about.static', filename='about/styles.css') }}">
+{% endblock %}
+
+{% block content %}
+    <h1>About Us</h1>
+    <p>This is a simple Flask application with a calculator feature.</p>
+{% endblock %}
